@@ -3,12 +3,15 @@ package com.example.student;
 public class Student {
 
     String name;
-    public int age;
+    int age;
     String gender;
     int idNo;
 
-    public Student() {
-
+    public Student(String name, int age, String gender, int idNo) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.idNo = idNo;
     }
 
     public String getName() {

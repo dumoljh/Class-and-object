@@ -4,12 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-       Student student = new Student();
+       Student student = new Student("Aedrian", 23, "Male", 123);
 
-         student.setName("Aedrian");
-         student.setAge(23);
-         student.setGender("Male");
-         student.setIdNo(123);
 
         System.out.println(student.getName());
         System.out.println(student.getAge());
